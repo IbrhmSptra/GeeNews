@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".detailactivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nearly 25% Of Players Have Beaten God Of War Ragnarok"
+                android:textColor="@color/white"
+                android:fontFamily="@font/glutensemibold"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:id="@+id/img_content"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/imgdetail"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#112A48"
+                android:paddingBottom="20dp"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:paddingHorizontal="20dp"
+                    android:fontFamily="@font/aryaregular"
+                    android:textSize="20dp"
+                    android:text="God Of War Ragnarok was part of a packed November roster of titles, and many had been eager to get their hands on it to see where the story of Kratos and Atreus went. But there’s a difference between getting the game, playing the game, and beating the game. After all, gamers all say they’re going to “beat the game” soon after they get it. But that’s not always what happens.Whether it be the large amounts of content within the game, the time they have to complete it, the quality of the title, and so on, many factors can lead to someone not beating a title.
+
+So, given that it’s been two weeks since the release of God Of War Ragnarok let’s ask the question: How many players have beaten it so far? The game had a robust storyline with plenty of side quests and hidden things to find, so it wasn’t an easy journey. But, if you look at the trophies for the game, you’ll see that the trophy for completing the main campaign has a stat of about 25%. That means about a quarter of the players who have the game beat the game, an impressive number.
+
+Let’s also recall that the game sold 5.1 million units in its first week, making it the fastest-selling video game for PlayStation at launch. An impressive feat to have gotten, worthy of a god, you might say.
+
+So if we take those numbers as our benchmark, that would mean that over 1 million players have beaten the main campaign in about two weeks. That’s very impressive, and that number will go up over time, as will the sales numbers for the title, of course.
+
+If you’re wondering how many people have collected all the game trophies, the number is much lower. This is because full completion runs have only happened at about 4%. This may be because people don’t mind not having a 100% run. Not everyone is Jirard The Completionist. Furthermore, to get the full trophies, you must backtrack through the realms to get the treasure chests you missed. Other little things might have held people back too.
+
+Regardless of that number, people have loved the game, and many expect it to be a big winner at the upcoming show, The Game Awards.
+
+People are also starting to wonder what might come next from the franchise. That question might not be answered for a while, but it’s nice to speculate.
+
+Source: PushSquare"
+                    android:textAlignment="textStart"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

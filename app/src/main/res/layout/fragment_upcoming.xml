@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".fragment.upcoming">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upcoming"
+        android:textColor="@color/white"
+        android:fontFamily="@font/glutensemibold"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="November 2022"
+        android:textColor="@color/white"
+        android:fontFamily="@font/glutensemibold"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcupcoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:listitem="@layout/item_upcoming"/>
+
+</LinearLayout>
